@@ -11,6 +11,9 @@ namespace PLib
         Process() : hProcess(NULL) {
             
         }
+
+        Process(LPCSTR AppName);
+
     private:
         HANDLE hProcess;
     };
