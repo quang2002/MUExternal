@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Process">
+      <UniqueIdentifier>{f3dcd153-a543-4f92-b4d7-16ba52cf187c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU External">
+      <UniqueIdentifier>{9edd71ff-bc2f-4326-b1ae-c407e4163c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{54be6128-ba4c-44fc-852b-05cc2cbb37be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mu-external.h">
+      <Filter>MU External</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mu-external.cpp">
+      <Filter>MU External</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
