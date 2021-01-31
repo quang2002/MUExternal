@@ -10,6 +10,9 @@
     <Filter Include="Misc">
       <UniqueIdentifier>{54be6128-ba4c-44fc-852b-05cc2cbb37be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{3fcea0a4-bcb9-4d9a-a11e-73f54463a640}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mu-external.h">
@@ -18,6 +21,12 @@
     <ClInclude Include="stdafx.h">
       <Filter>Misc</Filter>
     </ClInclude>
+    <ClInclude Include="Process\process.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\delay.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mu-external.cpp">
@@ -25,6 +34,12 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\process.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\delay.cpp">
+      <Filter>Hacks</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

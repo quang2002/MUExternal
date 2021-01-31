@@ -1,5 +1,6 @@
 #pragma once
 #include "stdafx.h"
+#include "Process/process.h"
 
 namespace MU
 {
@@ -8,6 +9,6 @@ namespace MU
 	public:
 		static DWORD WINAPI MainThread(LPVOID);
 	private:
-
+		static DWORD UnpackCommand(const char* cmd);
 	};
 }
